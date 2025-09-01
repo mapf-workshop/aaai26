@@ -1,4 +1,4 @@
-![Screenshot of the Website](aaai26/assets/screenshot)
+![Screenshot of the Website](aaai26/assets/screenshot.png)
 
 Here is the github repo for the AAAI 2026 Workshop on Multi-Agent Path Finding. Below we describe some basics of how to edit and view the website.
 
