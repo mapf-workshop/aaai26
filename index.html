@@ -26,6 +26,7 @@
             <a href="#important-dates" title="Important Dates">Important Dates</a>
             <a href="#call-for-contributions" title="Call for Contributions">Call for Contributions</a>
             <a href="#schedule" title="Conference Schedule">Schedule</a>
+            <a href="#invited-speakers" title="Invited Speakers">Invited Speakers</a>
             <a href="#organizers" title="Conference Flyer">Organizers</a>
             <a href="#contact" title="Contact Us">Contact</a>
         </div>
@@ -232,6 +233,77 @@
                 </tr>
             </table>
 
+
+            <br>
+
+            <h2 id="invited-speakers">Invited Speakers</h2>
+
+            <h3 style="color: rgb(66, 66, 66);">Context-aware planning and allocation: coordinating robots at Amazon
+                scale, by <a href="https://scholar.google.com/citations?user=Hs79dGsAAAAJ&hl=en" target="_blank">Alex
+                    Barbosa</a>
+            </h3>
+
+            <p style="text-align: center;">
+                <img src="assets/speakers/alex.jpg" alt="Alex Barbosa"
+                    style="max-width: 300px; border-radius: 8px; float: left; margin-right: 15px;">
+            </p>
+
+
+            <p><b>Bio:</b> Alex Barbosa is a Senior Applied Scientist at Amazon Robotics, where he researches algorithms
+                for coordinating large-scale fleets of mobile robots. He earned his PhD from the University of Illinois
+                at Urbana-Champaign, working with Professor Naira Hovakimyan on large-scale optimization under
+                uncertainty, with applications to autonomous operation in crop fields. Prior to his PhD, Alex co-founded
+                a company-ultimately acquired-that developed mobile inspection robots for the nuclear and oil & gas
+                industries. His hands-on expertise is further shaped by extensive participation in robotics competitions
+                such as BattleBots and RoboGames, where he earned multiple awards while having fun along the way.</p>
+            <p><b>Abstract:</b> Amazon operates the world's largest fleet of mobile robots, with over a million systems
+                deployed across hundreds of facilities worldwide. Coordinating fleets at this scale introduces
+                challenging—and often unique—problems in path planning and task allocation. This talk explores methods
+                for learning global state representations that inform local control policies and guide search-based
+                algorithms for large-scale coordination. I will also introduce the Block Rearrangement Problem (BRaP)
+                and discuss how Multi-Agent Path Finding (MAPF) provides a promising framework for addressing it.</p>
+
+            <hr style="margin: 2em auto; max-width: 800px; border: 0; border-top: 1px solid #ddd;">
+
+            <h3 style="color: rgb(66, 66, 66);">Multi-agent Path Finding: Heuristic Search Meets Machine Learning, by <a
+                    href="https://scholar.google.com/citations?user=Tw0A27kAAAAJ&hl=en" target="_blank">Konstantin
+                    Yakovlev</a></h3>
+
+            <p style="text-align: center;">
+                <img src="assets/speakers/konstantin.jpg" alt="Konstantin Yakovlev"
+                    style="max-width: 300px; border-radius: 8px; float: left; margin-right: 15px;">
+            </p>
+
+
+            <p><b>Bio:</b> Konstantin Yakovlev is a PhD in computer science and is currently a principal investigator at
+                the Federal Research Center for Computer Science and Control of Russian Academy of Sciences and holds
+                the same position at AIRI. Meanwhile, he is an associate professor at St.Petersburg University where he
+                also leads the newly established Markov Lab (Andrey Markov is the famous Russian mathematician, known
+                for his seminal contributions to computer science such as Markov chains (which laid the foundations of
+                Markov decision processes - the foundational formalism for modern reinforcement learning). He was a
+                professor at St.Petersburg University from 1880 to 1922. ). He has been contributing to multi-agent
+                pathfinding for almost a decade and is known to the community as a co-author of the several MAPF
+                planners that are tailored to solve MAPF under non-trivial assumptions like any-angle asynchronous
+                moves, agents with volumes etc. Recently he has been involved in exploring how machine learning can be
+                used to create robust and versatile MAPF algorithms that advance state of the art.</p>
+            <p><b>Abstract:</b> Coordinating multiple mobile agents, such as warehouse robots or autonomous vehicles, in
+                a shared environment is a core challenge in robotics and artificial intelligence. The Multi-Agent Path
+                Finding (MAPF) formalism provides a fundamental abstraction for this problem, enabling the development
+                of algorithms with strong theoretical guarantees. Heuristic search has been highly successful in this
+                domain, producing optimal or bounded-suboptimal solutions with proven guarantees. Rule-based solvers and
+                optimization techniques (like Large Neighbourhood Search) have also proven to be effective tools to
+                tackle MAPF by providing high-quality solutions within a much lower computational budget. Still most of
+                the modern search-based and rule-based MAPF solvers intrinsically assume that the multi-agent system is
+                controlled in a centralized fashion and it is not trivial to adapt them to real-world constraints like
+                partial observability and limited communication. This is where ML-based approaches may come on stage and
+                overcome the limitations of conventional planning-based methods. This talk explores how heuristic search
+                may be integrated with machine learning (i.e. deep reinforcement learning, imitation learning,
+                transformers, large-scale learning) to create new generation of (decentralized) MAPF solvers.
+                Specifically, I will talk about the methods like Switcher, Follower, MATS-LP, that are centred around
+                the idea of creating a hybrid solver which relies on both search and learning while solving the problem
+                at hand, and more recent approaches like MAPF-GPT (and its derivatives) which are based on imitation
+                learning at scale and (almost) do not rely on search to decide which actions the agents should take at
+                each configuration/time step.</p>
 
             <br>
 
