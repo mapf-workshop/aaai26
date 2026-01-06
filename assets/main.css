@@ -62,6 +62,8 @@ h4 {
     margin: 1.5em 0em 1em 0em;
     font-family: 'Futura', sans-serif;
     text-align: center;
+    clear: both;
+    /* padding: 0.5em 0 0.5em 0; */
     /*text-shadow: 1px 1px 2px #d0d0d0;*/
 }
 
@@ -657,44 +659,44 @@ footer {
 }
 
 table.schedule {
-                    width: 100%;
-                    border-collapse: collapse;
-                    margin-bottom: 2em;
-                    font-family: Arial, sans-serif;
-                }
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    font-family: Arial, sans-serif;
+}
 
-                table.schedule td {
-                    padding: 6px 10px;
-                    vertical-align: top;
-                }
+table.schedule td {
+    padding: 6px 10px;
+    vertical-align: top;
+}
 
-                table.schedule tr:nth-child(even) {
-                    background-color: #f9f9f9;
-                }
+table.schedule tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
-                td.time {
-                    text-align: right;
-                    white-space: nowrap;
-                    font-weight: bold;
-                    width: 150px;
-                }
+td.time {
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bold;
+    width: 150px;
+}
 
-                .title {
-                    font-weight: bold;
-                    font-size: 1.05em;
-                    margin-bottom: 2px;
-                }
+.title {
+    font-weight: bold;
+    font-size: 1.05em;
+    margin-bottom: 2px;
+}
 
-                .speaker {
-                    font-style: italic;
-                    color: #555;
-                    margin-left: 10px;
-                    display: block;
-                }
+.speaker {
+    font-style: italic;
+    color: #555;
+    margin-left: 10px;
+    display: block;
+}
 
-                .special {
-                    background-color: #ffe4b5;
-                    font-weight: bold;
-                    font-style: normal;
-                    color: #000;
-                }
+.special {
+    background-color: #ffe4b5;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+}
